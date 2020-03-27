@@ -1,0 +1,42 @@
+body{
+    background-color:#000000;
+}
+    
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(3,50px);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    padding:2px;
+    width:152px;
+    background-color:#000000;
+    top:50%;
+}
+section{
+    margin: 0 auto;
+}
+.cell{
+    color:aquamarine;
+    font-family: sans-serif;
+    background-color:#121212;
+    border-radius:2px;
+    font-size: 2rem;
+    padding:10px;
+    text-align: center;
+    position:relative;
+    top:0px;
+    left:0px;
+    font-weight: bolder;
+    transition: left 0.3s,top 0.3s;
+}
+    
+.cell:hover{
+    background-color:deepskyblue;
+    color:brown;
+}
+
+#score{
+    color:chartreuse;
+}
+    

@@ -1,0 +1,62 @@
+<!doctype>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width initial-scale=1.0"> 
+        <link href='style.css' rel='stylesheet'>
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    </head>
+    <body>
+        <section>
+            <!-- under development mode
+            <button onclick="create_game()">Create Game</button><br/>
+            <button onclick="join_game()">Join Game</button><br>
+            <input type="text" id="user_name" placeholder="enter your name"><br/>
+            <input type="number" id="game_id" placeholder="enter game id"><br/>
+            <input type="number" id="player_count" placeholder="enter number of players"><br/>
+            <button onclick="creat()">Create</button>
+            <button onclick="join_game()">Cancle</button><br>
+            <br/>
+            -->
+            <h1 id="score">Moves : <span id="score_no">0</span></h1>
+            <div id="container">
+            <div class="cell" onclick="move(this);">1</div>
+            <div class="cell" onclick="move(this);">2</div>
+            <div class="cell" onclick="move(this);">3</div>
+            <div class="cell" onclick="move(this);">4</div>
+            <div class="cell" onclick="move(this);">5</div>
+            <div class="cell" onclick="move(this);">6</div>
+            <div class="cell" onclick="move(this);">7</div>
+            <div class="cell" onclick="move(this);">8</div>
+            </div>
+        </section>
+        <script>
+        /*  under development mode
+            function creat(){
+                var user_name = document.getElementById("user_name").value;
+                var player_count = document.getElementById("player_count").value;
+                data = {"type":"creat","user_name":user_name,"player_count":player_count,"game_data":""};
+                data = JSON.stringify(data);
+                console.log(data);
+               const req = new XMLHttpRequest();
+                req.open('post','script.php',true);
+                req.send(data);
+                req.onload = function(){
+                    console.log(req.responseText);
+                }
+                
+            }
+            function join(){
+                var user_name = document.getElementById("user_name").value;
+                var game_id = document.getElementById("game_id").value;
+                data = {"type":"join","user_name":user_name,"game_id":game_id};
+                data = JSON.stringify(data);
+                console.log(data);
+            }
+          */  
+        </script>
+        <script src='utils.js' lang='js'></script>
+        <script src='script.js' lang='js'></script>
+        
+    </body>
+</html>

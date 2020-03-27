@@ -1,5 +1,5 @@
 body{
-    background-color:darkblue;
+    background-color: blue;
 }
     
 #container{
@@ -9,12 +9,12 @@ body{
     grid-column-gap: 2px;
     grid-row-gap: 2px;
     padding:2px;
-    width:100%;
+    width:152px;
     background-color:#000000;
-    /* top:50%; */
+    top:50%;
 }
 section{
-    width: 100%;
+    margin: 0 auto;
 }
 .cell{
     color:aquamarine;

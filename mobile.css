@@ -9,12 +9,12 @@ body{
     grid-column-gap: 2px;
     grid-row-gap: 2px;
     padding:2px;
-    width:152px;
+    width:100%;
     background-color:#000000;
-    top:50%;
+    /* top:50%; */
 }
 section{
-    margin: 0 auto;
+    width: 100%;
 }
 .cell{
     color:aquamarine;
